@@ -15,7 +15,7 @@ app.use(urlencoded({ extended: true }))
 app.use(morgan('dev'))
 
 app.get('/one', (req, res) => {
-  res.status(200).send('one')
+  res.status(200).send('pidor')
 })
 app.get('/two', (req, res) => {
   res.status(200).send('two')
