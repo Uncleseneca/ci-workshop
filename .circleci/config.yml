@@ -44,3 +44,10 @@ workflows:
             branches:
               only:
                 - master
+      - deliver:
+          filters:
+            branches:
+              only:
+                - master
+          requires:
+            - build_and_push
